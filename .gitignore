@@ -1,6 +1,6 @@
 # Секреты и окружение
 .env
-venv/
+venv*/
 env/
 
 # Python
