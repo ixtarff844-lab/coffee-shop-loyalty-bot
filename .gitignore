@@ -1,0 +1,26 @@
+# Секреты и окружение
+.env
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# База данных (не публикуем реальные данные клиентов)
+coffee_bot.db
+*.db
+
+# Фото кафе (если это реальные фото заведения, а не демо-контент)
+photos/*.jpg
+photos/*.jpeg
+photos/*.png
+!photos/.gitkeep
+
+# IDE / система
+.vscode/
+.idea/
+.DS_Store
+pyvenv.cfg
